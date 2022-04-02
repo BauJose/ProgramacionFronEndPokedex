@@ -1,0 +1,79 @@
+body{
+    background: url("https://wc.wallpaperuse.com/wallp/3-33550_s.jpg") no-repeat center fixed;
+    background-size: cover
+}
+
+.nombre{
+    color: #FFF;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+form {
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+input {
+    width: 200%;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto', monospace;
+    max-width: 500px;
+    border-radius: 100px;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(72, 149, 194);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.poke-card::before {
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.poke-types div {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px dashed rgb(255, 255, 255);
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 10%;
+}
